@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: peachpuff;
+}
+.container {
+    margin: 60px;
+    width: 90%;
+    height: 550px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+
+}
+.hours p {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.month {
+    display: flex;
+    gap: 40px;
+    margin-left: 80px;
+    margin-top: -300px;
+    align-items: flex-end;
+}
+.barA {
+    width: 40px;
+    height: 70px;
+    background-color: rgb(221, 160, 207);
+    border-radius: 30px;
+    position: relative;
+    animation: bounce 2s infinite ease-in-out;
+}
+.date {
+    position: relative;
+    top: 15px;
+    left: -25px;
+    font-weight: 900;
+}
+.chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@keyframes bounce {
+    0%, 100%{
+        transform: translateY(0);
+    } 50%{
+        transform: translateY(-12px);
+    }
+    
+}
+.emoji {
+    position: relative;
+    /* left: 0.5px; */
+    top: 40px;
+    font-size: 30px;
+    z-index: 10;
+    animation: bounce 2s infinite ease-in-out;
+
+}
+.small {height: 200px;}
+.smally{height: 130px;background-color: blanchedalmond;}
+.smaller{height: 150px;background-color: aqua;}
+.smallest{height: 170px;background-color: aquamarine;}
+.big{height: 120px;background-color: rgb(168, 117, 216);}
+.bigger{height: 210px;background-color: yellowgreen;}
+.biggest{height: 230px;background-color: blanchedalmond;}
+.tall{height: 260px;background-color: aqua;}
+.taller{height: 230px;}
+.tallest{height: 210px;background-color: aquamarine;}
+.tally{height: 190px;background-color: bisque;}
+.delay1 .chart{animation-delay: 0s;}
+.delay2 .chart{animation-delay: 0.2s;}
+.delay3 .chart{animation-delay: 0.4s;}
+.delay4 .chart{animation-delay: 0.6s;}
+.delay5 .chart{animation-delay: 0.8s;}
+.delay6 .chart{animation-delay: 0.10s;}
+.delay7 .chart{animation-delay: 0.12s;}
+.delay8 .chart{animation-delay: 0.14s;}
+.delay9 .chart{animation-delay: 0.16s;}
+.delay10 .chart{animation-delay: 0.18s;}
+.delay11 .chart{animation-delay: 0.20s;}
